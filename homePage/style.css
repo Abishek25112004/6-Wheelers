@@ -450,6 +450,10 @@ body{
   padding: 60px;
 }
 
+.login-outline-display{
+    display:block;
+}
+
 .overlay{
     display: none;
     height: 100vh;
@@ -471,8 +475,8 @@ body{
 
 .x-btn{
     border-style: none;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: transparent;
     font-size: 25px;
     font-weight: 60;
@@ -480,16 +484,21 @@ body{
     position: absolute;
     right: 30px;
     top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
 }
 
 .x-btn:hover{
     border-radius: 50px;
-    background-color: rgba(128, 128, 128, 0.4);
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
 }
 
 .login-body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .login-body input{
@@ -498,6 +507,7 @@ body{
     border-radius: 5px;
     border-style:none;
     margin-top: 20px;
+    font-size: 15px;
 }
 
 .login-body input:focus{
@@ -505,7 +515,6 @@ body{
 }
 
 .signinBtn{
-    margin-left: 30%;
     margin-top: 20px;
     padding: 10px 50px;
     font-size: 15px;
@@ -522,9 +531,115 @@ body{
 }
 
 .login-footer{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
+    width: 400px;
     justify-content: space-between;
+}
+
+.login-footer button{
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.scroll{
+    overflow: hidden;
+}
+
+.forget-outline{
+  display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.forget-title{
+    color: #013a63;
+}
+
+.forget-title h1{
+    display: inline;
+}
+
+.forget-x-btn{
+     border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.forget-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.forget-body input{
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-style:none;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.forget-body input:focus{
+    outline: none;
+}
+
+.forget-footer{
+    width: 400px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reset-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.reset-btn:hover{
+    transform: scale(1.1);
+}
+
+.forget-back-to-login{
+    margin-top: 50px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.forget-outline-display{
+    display: block;
 }
 
 

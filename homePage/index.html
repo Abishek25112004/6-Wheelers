@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/icon.png">
 </head>
-<body>
+<body class="body">
 
     <div class="overlay"></div>
-
-     <div class="login-outline">
+            <div class="login-outline">
                 <div class="login-title">
                     <h1>Hello!</h1>
                     <h3>Welcome Back. Let's Get You In</h3>
@@ -23,7 +22,7 @@
                 <form >
                     <table>
                         <tr>
-                            <td><input type="email" placeholder="Enter your email" required></td>
+                            <td><input class="signin-email" type="email" placeholder="Enter your email or phone number" ></td>
                         </tr>
                         <tr>
                             <td>
@@ -31,7 +30,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><input type="password" placeholder="Enter your password" required></td>
+                            <td><input class="signin-pass" type="password" placeholder="Enter your password" ></td>
                         </tr>
                         <tr>
                             <td>
@@ -39,16 +38,43 @@
                             </td>
                         </tr>
                     </table>
-
-                    <button class="signinBtn">Sign In</button>
-
-                    <div class="login-footer">
-                          <a href="">Forget password?</a>
-                          <a href="">Create New Account</a>
-                    </div>
                 </form>
-                
+                <button class="signinBtn">Sign In</button>
+
+                        <div class="login-footer"> 
+                            <button class="forgetPass-btn-in-signin">Forget password?</button>
+                             <button class="createNewAcc-btn-in-signin">Create New Account</button>
+                    </div>
+              
             </div>
+        </div>
+
+        <div class="forget-outline">
+              <div class="forget-title">
+                 <h2>Forgot it?</h2>
+                 <h1>We’ve got you!</h1>
+                 <button class="forget-x-btn">x</button>
+              </div>
+
+              <div class="forget-body">
+                 <form>
+                    <table>
+                        <tr>
+                            <td><input class="forget-email" type="email" type="number" placeholder="Enter your email or phone number" required></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+                    </table>
+                 </form>
+
+                 <div class="forget-footer">
+                    <button class="reset-btn">Reset your password</button>
+                    <button class="forget-back-to-login">← Back To Login</button>
+                 </div>
+              </div>
         </div>
 
         
