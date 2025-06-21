@@ -779,7 +779,7 @@ body{
   top: 50%;
   z-index: 3;
   transform: translate(50%,-50%);
-  height: 400px;
+  height: 500px;
   width: 400px;
   background-color: white;
   border-radius: 20px;
@@ -878,6 +878,15 @@ body{
       border-radius: 50px;
     transform: scale(1.1);
     background-color: rgba(1,58,99,0.3);
+}
+
+.conditions{
+    font-size: 13px;
+    color: gray;
+}
+
+.conditions ul{
+    list-style-type:circle;
 }
 
 .set-pass-outline-display{
