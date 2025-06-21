@@ -717,6 +717,18 @@ body{
     outline: none;
 }
 
+.OTP-body p{
+    font-size: 14px;
+}
+
+.resend-email-btn{
+    background-color: transparent;
+    border-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
 .OTP-footer{
     width: 400px;
     margin-top: 30px;
@@ -744,7 +756,7 @@ body{
 }
 
 .OTP-back-to-login{
-    margin-top: 50px;
+    margin-top: 40px;
     border-style: none;
     background-color: transparent;
     cursor: pointer;
@@ -890,6 +902,82 @@ body{
 }
 
 .set-pass-outline-display{
+    display: block;
+}
+
+.verify-success-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 300px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.verify-success-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.verify-success-title{
+    color: #013a63;
+    justify-items: center;
+}
+
+.verify-success-title p{
+    text-align: center;
+}
+
+.verify-success-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.verify-success-continue-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.verify-success-continue-btn:hover{
+    transform: scale(1.1);
+}
+
+.verify-success-body{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.verify-success-continue-btn{
+    margin-top: 30px;
+}
+
+.verify-success-outline-display{
     display: block;
 }
 

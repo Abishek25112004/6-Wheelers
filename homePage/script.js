@@ -95,6 +95,7 @@ OtpContinueBtn.addEventListener('click',()=>{
     setPassOutline.classList.add("set-pass-outline-display");
     overlay.style.display = 'block';
      OtpOutline.style.display = "none"
+     body.classList.add("scroll");
 })
 
 let setPassXBtn = document.querySelector('.set-pass-x-btn')
@@ -102,6 +103,7 @@ let setPassXBtn = document.querySelector('.set-pass-x-btn')
 setPassXBtn.addEventListener('click',()=>{
     setPassOutline.classList.remove("set-pass-outline-display");
     overlay.style.display = 'none';
+    body.classList.remove("scroll");
 })
 
 let setPassBackToLoginBtn = document.querySelector('.set-pass-back-to-login-btn')
@@ -118,3 +120,29 @@ setPassBackBtn.addEventListener('click',()=>{
      OtpOutline.style.display = "block"
 })
 
+//   verification success
+
+let setPassConfirmBtn = document.querySelector('.set-pass-confirm-btn')
+let verifySuccessOutline = document.querySelector('.verify-success-outline')
+
+setPassConfirmBtn.addEventListener('click',()=>{
+    verifySuccessOutline.classList.add("verify-success-outline-display")
+    overlay.style.display = 'block';
+    body.classList.add("scroll");
+    setPassOutline.classList.remove("set-pass-outline-display");
+})
+
+let verifySuccessXBtn = document.querySelector('.verify-success-x-btn')
+
+verifySuccessXBtn.addEventListener('click',()=>{
+     verifySuccessOutline.classList.remove("verify-success-outline-display")
+     overlay.style.display = 'none';
+    body.classList.remove("scroll");
+})
+
+let verifySuccessContinueBtn = document.querySelector('.verify-success-continue-btn')
+
+verifySuccessContinueBtn.addEventListener('click',()=>{
+    verifySuccessOutline.classList.remove("verify-success-outline-display")
+    loginOutline.classList.add("login-outline-display");
+})
