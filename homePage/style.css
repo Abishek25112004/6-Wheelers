@@ -592,6 +592,28 @@ body{
     background-color: rgba(1,58,99,0.3);
 }
 
+.forget-back-btn{
+     border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.forget-back-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
 .forget-body input{
     height: 40px;
     width: 370px;
@@ -641,5 +663,227 @@ body{
 .forget-outline-display{
     display: block;
 }
+
+.OTP-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.OTP-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.OTP-title{
+    color: #013a63;
+}
+
+.OTP-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.OTP-body input{
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-style:none;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.OTP-body input:focus{
+    outline: none;
+}
+
+.OTP-footer{
+    width: 400px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.OTP-continue-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.OTP-continue-btn:hover{
+    transform: scale(1.1);
+}
+
+.OTP-back-to-login{
+    margin-top: 50px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.OTP-back-btn{
+     border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.OTP-back-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.set-pass-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.set-pass-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.set-pass-title{
+    color: #013a63;
+}
+
+.set-pass-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.set-pass-body input{
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-style:none;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.set-pass-body input:focus{
+    outline: none;
+}
+
+.set-pass-footer{
+    width: 400px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.set-pass-confirm-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.set-pass-confirm-btn:hover{
+    transform: scale(1.1);
+}
+
+.set-pass-back-to-login-btn{
+    margin-top: 40px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.set-pass-back-btn{
+     border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.set-pass-back-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.set-pass-outline-display{
+    display: block;
+}
+
+
 
 
