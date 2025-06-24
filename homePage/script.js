@@ -166,3 +166,42 @@ createAccXBtn.addEventListener('click',()=>{
     overlay.style.display = 'none';
      body.classList.remove("scroll");
 })
+
+//   create account OTP
+
+let createAccContinueBtn = document.querySelector('.create-acc-continue-btn')
+let createAccOtpOutline = document.querySelector('.create-acc-OTP-outline')
+
+createAccContinueBtn.addEventListener('click',()=>{
+    createAccOtpOutline.style.display="block"
+     overlay.style.display = 'block';
+     body.classList.add("scroll");
+      createAccOutline.classList.remove('create-acc-outline-display')
+})
+
+let createAccOtpContinueBtn = document.querySelector('.create-acc-OTP-continue-btn')
+let createAccVerifyOutline = document.querySelector('.create-acc-verify-outline')
+
+createAccOtpContinueBtn.addEventListener('click',()=>{
+    createAccVerifyOutline.style.display='block'
+     overlay.style.display = 'block';
+     body.classList.add("scroll");
+     createAccOtpOutline.style.display="none"
+})
+
+let createAccOtpXBtn = document.querySelector('.create-acc-OTP-x-btn')
+
+createAccOtpXBtn.addEventListener('click',()=>{
+    createAccOtpOutline.style.display='none'
+     overlay.style.display = 'none';
+     body.classList.remove("scroll");
+})
+
+let creatAccOtpBackBtn = document.querySelector('.create-acc-OTP-back-btn')
+
+creatAccOtpBackBtn.addEventListener('click',()=>{
+      createAccOtpOutline.style.display='none'
+       createAccOutline.classList.add('create-acc-outline-display')
+    overlay.style.display = 'block';
+     body.classList.add("scroll");
+})

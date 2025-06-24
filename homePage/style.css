@@ -1064,5 +1064,194 @@ body{
     display: block;
 }
 
+.create-acc-OTP-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.create-acc-OTP-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.create-acc-OTP-title{
+    color: #013a63;
+}
+
+.create-acc-OTP-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.create-acc-OTP-body input{
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-style:none;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.create-acc-OTP-body input:focus{
+    outline: none;
+}
+
+.create-acc-OTP-body p{
+    font-size: 14px;
+}
+
+.create-acc-resend-email-btn{
+    background-color: transparent;
+    border-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.create-acc-OTP-footer{
+    width: 400px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.create-acc-OTP-continue-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.create-acc-OTP-continue-btn:hover{
+    transform: scale(1.1);
+}
+
+.create-acc-OTP-back-btn{
+     border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.create-acc-OTP-back-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.create-acc-verify-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 300px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.create-acc-verify-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.create-acc-verify-title{
+    color: #013a63;
+    justify-items: center;
+}
+
+.create-acc-verify-title p{
+    text-align: center;
+}
+
+.create-acc-verify-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.create-acc-verify-continue-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.create-acc-verify-continue-btn:hover{
+    transform: scale(1.1);
+}
+
+.create-acc-verify-body{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-acc-verify-continue-btn{
+    margin-top: 30px;
+}
+
+.create-acc-verify-outline-display{
+    display: block;
+}
+
 
 
