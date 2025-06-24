@@ -146,3 +146,23 @@ verifySuccessContinueBtn.addEventListener('click',()=>{
     verifySuccessOutline.classList.remove("verify-success-outline-display")
     loginOutline.classList.add("login-outline-display");
 })
+
+//    create a new account 
+
+let createAccOutline = document.querySelector('.create-acc-outline')
+let createNewAccBtn = document.querySelector('.createNewAcc-btn-in-signin')
+
+createNewAccBtn.addEventListener('click',()=>{
+    createAccOutline.classList.add('create-acc-outline-display')
+    overlay.style.display = 'block';
+     body.classList.add("scroll");
+     loginOutline.classList.remove("login-outline-display");
+})
+
+let createAccXBtn = document.querySelector('.create-acc-x-btn')
+
+createAccXBtn.addEventListener('click',()=>{
+     createAccOutline.classList.remove('create-acc-outline-display')
+    overlay.style.display = 'none';
+     body.classList.remove("scroll");
+})

@@ -981,6 +981,88 @@ body{
     display: block;
 }
 
+.create-acc-outline{
+      display: none;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(50%,-50%);
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.create-acc-x-btn{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 60;
+    font-family:sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: all .6s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.create-acc-title{
+    color: #013a63;
+}
+
+.create-acc-x-btn:hover{
+      border-radius: 50px;
+    transform: scale(1.1);
+    background-color: rgba(1,58,99,0.3);
+}
+
+.create-acc-body input{
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border-style:none;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.create-acc-body input:focus{
+    outline: none;
+}
+
+.create-acc-continue-btn{
+    padding: 10px 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: none;
+    background-color:#ef233c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.create-acc-footer{
+    width: 400px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.create-acc-continue-btn:hover{
+    transform: scale(1.1);
+}
+
+.create-acc-outline-display{
+    display: block;
+}
 
 
 
