@@ -205,3 +205,22 @@ creatAccOtpBackBtn.addEventListener('click',()=>{
     overlay.style.display = 'block';
      body.classList.add("scroll");
 })
+
+//   Create OTP Verified
+
+let createAccVerifyContinueBtn = document.querySelector('.create-acc-verify-continue-btn')
+
+createAccVerifyContinueBtn.addEventListener('click',()=>{
+        createAccVerifyOutline.style.display='none'
+         loginOutline.classList.add("login-outline-display");
+   overlay.style.display = 'block';
+   body.classList.add("scroll");
+})
+
+let createAccVerifyXBtn = document.querySelector('.create-acc-verify-x-btn')
+
+createAccVerifyXBtn.addEventListener('click',()=>{
+     createAccVerifyOutline.style.display='none'
+     overlay.style.display = 'none';
+   body.classList.remove("scroll");
+})
